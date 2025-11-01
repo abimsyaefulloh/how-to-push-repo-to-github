@@ -23,7 +23,7 @@ Harus muncul fingerprint dari finaltask.
 # 4. Tes koneksi ke GitHub
 ssh -T git@github.com
 Kalau muncul:
-Hi abimsyaefulloh! You've successfully authenticated, but GitHub does not provide shell access.
+Hi abimsyaefulloh! Youve successfully authenticated, but GitHub does not provide shell access.
 Berarti koneksi SSH-mu ke GitHub sudah sukses 🎉
 
 # 5. hubungkan github global
