@@ -1,4 +1,6 @@
-# how-to-push-repo-to-github
+### how-to-push-repo-to-github
+
+## hubungkan akun github dulu
 ```bash
 # 1. salin ssh key yang terhubung di git hub ke terminal
 abim@abim23:~/.ssh$ ls
@@ -23,4 +25,14 @@ ssh -T git@github.com
 Kalau muncul:
 Hi abimsyaefulloh! You've successfully authenticated, but GitHub does not provide shell access.
 Berarti koneksi SSH-mu ke GitHub sudah sukses 🎉
+
+# 5. hubungkan github global
+git config --global user.email "abimsyaefulloh2020@gmail.com"
+git config --global user.name "abimsyaefulloh"
+
+tes koneksi
+git config --global --list
+dan hasilnya :
+user.name=abimsyaefulloh
+user.email=abimsyaefulloh2020@gmail.com
 ```
